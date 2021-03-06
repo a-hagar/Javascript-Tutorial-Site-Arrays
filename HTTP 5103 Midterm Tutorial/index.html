@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed's JS Midterm Tutorial</title>
+</head>
+<body>
+        <header>
+            <div id="header">
+                <h1>Arrays In Javascript</h1>
+                <nav id="main-menu">
+                    <ul class="menu">
+                      <li><a href="index.html">Home</a></li>
+                      <li><a href="quiz.html">Quiz</a></li>
+                      <li><a href="reference.html">Resources</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main-container">
+            <img src="title.png" alt="an image of code showing arrays.">
+            <div class="text">
+                <h2>What are arrays?</h2>
+                <p>Arrays are a list of values, including strings, numbers, booleans, or other variables into a single variable. When you need a items from a list of common items, it is easier to have them combined into an array than having inidividual variables.</p>
+            </div>
+            <img src="title2.png" alt="code showing array order.">
+            <div class="text">
+                <h2>How to write an array?</h2>
+                <p>Arrays can also be written in individual variables with an assigned numbered indexes.</p>
+                <p>Arrays always start at 0, so remember that your first will start at 0 instead of 1.</p>
+                <p>To select an item from an array, select the array name (tutorial2) and the index number with a square bracket right next to the name (0). In this example, selecting the first item, 0, from this array will result in the string, "Winter."</p>
+            </div>
+            <img src="title2.png" alt="code showing array order.">
+            <div class="text">
+                <h2>Console logging</h2>
+                <p>To view an array, you can return the array on a browser's console by using console.log. To return a particular item by specifying the item number from the array. You can also find the</p>
+            </div>
+            <img src="title2.png" alt="code showing array order.">
+            <div class="text">
+                <h2>Array methods</h2>
+                <p>There are several ways to manipulate an array. Here are the list of some Javascript array methods</p>
+                <div id="functions">
+                    <h3>array.join(,)</h3>
+                        <p>The join function turns the array items into a string. The brackets hold the separator that goes between each new string, such as a comma or "and."</p>
+                    <h3>array.sort & array.reverse</h3>
+                        <p>These two functions organize the arrays. The sort function organizes in alphabetical order, and the reverse function sorts in descending order.<b>Warning: this will not work correctly with numbers, as they will be organized by their first character (ex. 10, 2, 351, 42)</b></p>
+                    <h3>array.splice(startIndex, totalDelete, newItem)</h3>
+                        <p>The splice function adds and removes any item from the middle of an array. You have to state in the array you will delete (startIndex), how many indexes you plan to delete (totalDelete), and any new items you wish to add (newItem).</p>
+                    <h3>array.slice(startIndex, endIndex)</h3>
+                        <p>The slice function is similar to splice in removing pieces of an array, but it does not alter the array as the splice function does. Slice creates a new array with the new addition included.</p>
+                    <h3>array.indexOf(itemName)</h3>
+                        <p>If you have an array item and want to find its index number in the array, use the indexOf function.</p>
+                    <h3>array.pop() & array.push()</h3>
+                        <p>The pop and push functions serve similar functions to add and remove items.</p>
+                    <h3>array1.concat(array2)</h3>
+                        <p>The concat function combines the two arrays together. The second array variable always goes into the bracket.</p>
+                    <h3>array.shift & array.unshift</h3>
+                        <p>The shift and unshift functions manipulate the first item of the array. Shift removes the first item, whereas unshift adds a new item to the front of the array.</p>
+                </div>
+            <div id="quiz">
+                <h3>Think you understand Javascript arrays? Take this quiz to test your knowledge.</h3>
+                <a href="quiz.html" id="button">TEST YOURSELF</a>
+            </div>
+        </main>
+</body>
+<footer class="footer">
+    <p>&copy; 2021, Ahmed Hagar</p>
+</footer>
+</html>

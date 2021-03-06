@@ -30,12 +30,13 @@ padding-top: 10px;
   position: relative;
 }
 #main-menu a:hover {
-  color:#fffaef;
+  color:#bd0303;
 }
 .menu ul{
   margin: 0px;  
 }
 .menu li {
+  font-weight: 500;
   display:inline-block;
   list-style-type:none;
   margin-right:1.7em;
@@ -69,7 +70,7 @@ img{
 }
 #functions{
   padding-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 #functions h3 {
   font-size: 1.2em;

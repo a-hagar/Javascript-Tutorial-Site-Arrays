@@ -6,7 +6,7 @@
 </p>
 This is the Midterm tutorial assignment for HTTP 5103. In this site, I focused on Arrays in Javascript, how they work and how to use them. The site is also responsive for tablet and smartphone users to learn about arrays from anywhere.
 
-
+<br>
 
 <h1 color="#ffffff">Quiz</h1>
 <p align="center">

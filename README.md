@@ -10,7 +10,7 @@ This is the Midterm tutorial assignment for HTTP 5103. In this site, I focused o
 
 <h1 color="#ffffff">Quiz</h1>
 <p align="center">
-  <img width="600" align="center" alt="Screen Shot 2021-03-07 at 12 50 30 PM" src="https://user-images.githubusercontent.com/75767321/110249346-c20b7800-7f43-11eb-9617-0b237a233248.png">
+  <img width="600" alt="Screen Shot 2021-03-07 at 12 50 30 PM" src="https://user-images.githubusercontent.com/75767321/110249346-c20b7800-7f43-11eb-9617-0b237a233248.png">
  </p>
 After completing the tutorial, there is an 8-question multiple choice quiz to take to test your knowledge on arrays. Users can get their score on a pop-up and an encouraging message after completion.
 

@@ -1,3 +1,7 @@
-/*
-  X-Frame-Options: DENY
-  X-XSS-Protection: 1; mode=block
+[[headers]
+for = "/*"
+
+[headers.values]
+X-Frame-Options = "DENY"
+X-XSS-Protection = "1; mode=block"
+X-Frame-Options: SAMEORIGIN
